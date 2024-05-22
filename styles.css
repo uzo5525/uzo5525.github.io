@@ -58,3 +58,36 @@ footer {
     display: inline-block;
     margin: 0.5rem;
 }
+
+#main-menu {
+    text-align: center;
+}
+
+
+#main-menu button:hover {
+    background-color: #2a37a5;
+}
+
+.button-container {
+    text-align: center; /* 버튼 컨테이너를 중앙 정렬합니다 */
+}
+
+#main-menu button {
+    display: block; /* 각 버튼을 블록 요소로 설정하여 세로로 나열합니다 */
+    margin: 5rem auto; /* 버튼 간격을 조절합니다 */
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    width: 300px;
+    height: 100px;
+    background-color: #3b4cca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#main-menu button:hover {
+    background-color: #2a37a5;
+}
+
