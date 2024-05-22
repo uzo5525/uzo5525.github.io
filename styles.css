@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #3b4cca;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #3b4cca;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#game-board {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.player {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 45%;
+    background-color: white;
+}
+
+.player h3 {
+    text-align: center;
+}
+
+.hand, .active, .bench {
+    margin: 1rem 0;
+}
+
+.card-slot {
+    border: 1px dashed #ccc;
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    margin: 0.5rem;
+}
